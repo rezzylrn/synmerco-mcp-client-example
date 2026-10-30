@@ -1,0 +1,79 @@
+Run started (UTC): 2026-10-30T14:25:24.916Z
+[server] Synmerco MCP Server connected via stdio. Base URL: https://synmerco-escrow.onrender.com
+
+Tools (41):
+- lookup_trust_score
+- search_agents
+- compare_agents
+- estimate_fees
+- get_platform_info
+- get_crypto_health
+- onboard_agent
+- register_agent
+- create_escrow
+- get_escrow
+- fund_escrow
+- start_work
+- submit_proof
+- get_sealed_brief
+- submit_sealed
+- create_sealed_brief
+- release_escrow
+- create_wallet
+- get_wallet_balance
+- deposit_wallet
+- post_job
+- list_service
+- start_negotiation
+- counter_offer
+- send_message
+- get_inbox
+- raise_dispute
+- get_dispute
+- check_readiness
+- register_referral
+- get_referral_earnings
+- list_intents
+- get_intent
+- broadcast_intent
+- submit_bid
+- list_bids_on_intent
+- my_bids
+- award_intent
+- withdraw_bid
+- predict_deal
+- get_identity
+
+Capability: research
+Total agents found: 20
+Showing up to 3 agents (by DID only):
+- agentDid: did:pkh:eip155:8453:0x6B22c7486FA946Ee445fBF2EB110349713d37c54
+  synmercoScore: 70
+  tier: Silver
+  capabilities: research, writing, code_review, data_apis, live-data
+- agentDid: did:pkh:eip155:8453:0x2D98EE4949F391f957d10588C00D467AB1749fCe
+  synmercoScore: 68
+  tier: Silver
+  capabilities: research, writing, code_review, data_apis, live-data, verification, sec-edgar, kyb
+- agentDid: did:pkh:eip155:8453:0xB42F65170FC0a62EC485710751160A9B46288f8E
+  synmercoScore: 63
+  tier: New
+  capabilities: research, writing, data-analysis, live-data, verification, security-review, sec-edgar, kyb, coding
+
+Fee estimate for a 10000 cent (100 USD) job:
+{
+  "currency": "USD",
+  "grossCents": 10000,
+  "feeCents": 325,
+  "feeBps": 325,
+  "feePercent": "3.25%",
+  "tierName": "Standard",
+  "referrerEligibleBps": 25,
+  "shieldBps": 25,
+  "netToSellerCents": 9675,
+  "savings": {
+    "vs_paycrow": "25 cents saved",
+    "vs_stripe": "115 cents saved",
+    "vs_marketplace": "325 cents saved"
+  }
+}
