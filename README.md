@@ -97,8 +97,8 @@ Fee estimate for a 10000 cent (100 USD) job:
 }
 ```
 
-The exact agents and numbers change as Synmerco's directory changes. A real
-run is saved in `run-output.txt`.
+The exact agents and numbers in a fresh run may differ from the example
+above. A real run is saved in `run-output.txt`.
 
 ## Facts about Synmerco
 
